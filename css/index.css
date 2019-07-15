@@ -1,3 +1,431 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	color: #204060;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, span {
+    font-family: ;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-family: 'Lalezar', cursive;
+}
+
+span {
+
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/*******basics****************/
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin-left: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, ul {
+	line-height: 1.5;
+}
+
+
+/*****nav and header********/
+
+.header-nav {
+	padding-bottom: 10px;
+	padding-top: 20px;
+	background: #40a5ed;
+	width: 100%;
+	display: flex;
+	border-bottom: 3px solid #204060;
+
+}
+
+.header-nav .container {
+	display: flex; 
+	
+}
+
+nav {
+	padding-top: 15px;
+	width: 70%;
+	display: flex;
+	/*justify-content: flex-start;*/
+	
+}
+nav a {
+	text-decoration: none;
+	color: #ceedea;
+}
+.title-box {
+	padding-top: 90px;
+}
+
+header {
+	padding-bottom: 30px;
+	background: #ceedea;
+	display: flex;
+    border-bottom: 3px solid #204060;
+    padding-top: 140px;
+
+}
+
+
+
+
+
+.start-button {
+	text-align: center;
+	border: black 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 40%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background: #00ff99;
+}
+
+.content-wrapper{
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+/*********main sections*************/
+
+
+.bottom {
+	border-bottom: 3px solid #204060;;
+}
+
+
+.info {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.middle {
+	margin-right: 16px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	flex-direction: column;
+}
+
+/**************services page****************/
+.services-header {
+	display: flex;
+	flex-flow: column wrap;
+}
+.services-header-img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.about-services {
+	flex: display;
+	flex-wrap: wrap;
+
+}
+
+.services-offered {
+	border: 1px dimgray solid;
+	background-color: #ceedea;;
+	margin-top: 33px;
+	padding: 20px;
+
+}
+
+.learn-more-button {
+	background-color: #00ff99;
+	border: dimgray 1px solid;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+
+/*******footer**********/
+footer {
+	display: flex;
+	background: #40a5ed;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	border-top: #204060 3px solid;
+}
+footer p {
+	color: #ceedea;
+}
+
+footer p span {
+	color: #204060;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.micro-div {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/********************full-screen desktop*******************/
+
+
+.top, .bottom {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+nav a {
+ 
+}
+
+.halves {
+    display: flex;
+    width: 48%;
+}
+.header-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: row wrap;
+}
+
+
+.header-nav {
+    padding-bottom: 20px;
+}
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+nav a {
+	padding: 15px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+figure {
+	width: 60%;
+}
+
+
+.headmadoo {
+	flex-flow: row wrap;
+	justify-items: center;
+	align-items: center;
+}
+
+.header-halves {
+	display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.header-halves img {
+    width: 100%;
+}
+
+header {
+    padding-top: 170px;
+}
+.halves, .thirds {
+    display: flex;
+    flex-direction: column;
+}
+.thirds {
+	display: flex;
+	width: 30%;
+}
+
+.contact {
+	text-align: center;
+}
+
+.middle {
+	margin-left: none;
+}
+
+.service-facts {
+	display: flex;
+	flex-direction: column;
+}
+
+.service-review {
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+	
+}
+
+
+.service-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.top, .bottom, .about-services {
+    justify-content: space-between;
+}
+
+.middle {
+    margin-left: 16px;
+}
+
+.contact {
+    text-align: left;
+}
+
+.about-services {
+    padding-bottom: 20px;
+}
+
+.service-facts {
+    flex-flow: row nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-top: 3px #204060 solid;
+}
+.service-review {
+    display: 49%;
+    padding: 0px;
+}
+
+.header-nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+}
+
+
+figure {
+    width: 30%;
+}
+
+figure a img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.title-box {
+    padding-top: 20px;
+}
+
+
 
 
